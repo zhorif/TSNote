@@ -19,7 +19,7 @@
         <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+            android:text="Ini Buku" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -27,6 +27,12 @@
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/ic_book_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buku Bagus" />
     </LinearLayout>
 </ScrollView>
 
